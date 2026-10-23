@@ -14,6 +14,18 @@ npm start          # oder: node server.js
 Danach im Browser öffnen: <http://localhost:5173>
 Alternativ funktioniert auch das direkte Öffnen von `index.html` im Browser.
 
+## Hosting auf Vercel
+
+Die App ist rein statisch (kein Build nötig). `vercel.json` ist bereits vorbereitet.
+
+1. Auf <https://vercel.com/new> das GitHub-Repository `BauCheck` importieren.
+2. Framework Preset: **Other**. Build- und Install-Befehl leer lassen, Output Directory `.`.
+3. **Deploy** klicken – fertig.
+
+Alternativ per CLI: `npx vercel` (Vorschau) bzw. `npx vercel --prod`.
+
+Hinweis: Auch gehostet speichert die Demo alles im Browser (`localStorage`). Ein Bauherr-Link funktioniert daher nur im selben Browser, in dem er in der Bankansicht erstellt wurde.
+
 ## Rollen
 
 | Rolle | Einstieg | Funktionen |
