@@ -1,0 +1,13 @@
+{
+  "name": "baucheck-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BauCheck – Demo-Web-App zur fotobasierten Baufortschrittskontrolle für Schweizer Banken (synthetische Daten).",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
